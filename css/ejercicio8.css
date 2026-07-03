@@ -1,0 +1,59 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0px;
+    padding: 20px;
+    color:#333;
+}
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: #3ce780;
+    text-align: center;
+    margin-bottom:25px ;
+}
+
+.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom:20px ;
+}
+.horario th, .horario td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+}
+.horario th{
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+horario tbody tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+.laboratorio{
+    background-color: #e8f6f3;
+    font-weight: bold;
+}
+.proeycto{
+    background-color:#fff8e1;
+    color: #d35400;
+}
+.requisito{
+    font-size: 14px;
+    color: #27ae60;
+    text-align: center;
+    margin-top: 10px ;
+    text-transform: uppercase;
+}
+.notas{
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+}
