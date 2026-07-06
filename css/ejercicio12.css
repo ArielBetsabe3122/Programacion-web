@@ -1,0 +1,83 @@
+h1 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 24px; 
+    text-align: center;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F9FA;
+    color: #2B2D42;
+    line-height: 1.6;
+    padding: 40px 20px;
+    align-items: center;
+    margin: 0;
+}
+.contenedor-formulario {
+    max-width: 650px;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.formulario {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    gap: 25px; 
+}
+
+
+.formulario-entrada {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 13px; 
+}
+
+input {
+    width: 100%; 
+    color: #0350a3;
+    padding: 12px 15px;
+    border: 1px solid #E9ECEF;
+    border-radius: 8px;
+    transition: all 0.35s;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+input[readonly] {
+    background-color: #F8F9FA;
+    color: #2B2D42;
+}
+input:focus, textarea:focus {
+    border-color: #4cc9F0;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
+}
+
+.boton-convertir {
+    background-color: #8814a9;
+    color: white;
+    border: none;
+    padding: 12px 20px; 
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    white-space: nowrap;
+    height: 46px; 
+}
+
+.boton-convertir:hover {
+    background-color: #100880;
+}
