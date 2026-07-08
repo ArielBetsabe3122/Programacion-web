@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Operaciones Basicas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="js/ejercicio16.js"></script>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+</head>
+<body>
+
+    <div class="contenedor-formulario">
+        <h1>Calculadora Basica</h1>
+        <p class="subtitulo">Ingresa dos numeros y selecciona la operacion que deseas realizar.</p>
+        <form class="formulario">
+            <div class="formulario-entrada">
+                <div class="grupo-uno">
+                    <label for="numero1">Numero 1</label>
+                    <input type="text" id="numero1" placeholder="Ej: 15" required>
+                </div>
+                
+                <div class="grupo-uno">
+                    <label for="numero2">Numero 2</label>
+                    <input type="text" id="numero2" placeholder="Ej: 5" required>
+                </div>
+            </div>
+            <div class="grupo-botones">
+                <button type="button" class="btn-op" onclick="calcularOperacion('suma')"> Sumar</button>
+                <button type="button" class="btn-op" onclick="calcularOperacion('resta')">Restar</button>
+                <button type="button" class="btn-op" onclick="calcularOperacion('multiplicacion')">Multiplicar</button>
+                <button type="button" class="btn-op" onclick="calcularOperacion('division')">Dividir</button>
+            </div>
+>
+            <div class="grupo-resultado">
+                <label for="resultado">Resultado Final</label>
+                <input type="text" id="resultado" placeholder="Resultado" readonly>
+            </div>
+        </form>
+    </div>
