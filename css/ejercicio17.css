@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B2D42;
+}
+
+.btn-agregar{
+    background-color: #927dc1;
+    color: white;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #1b852e;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.btn-agregar:active {
+    transform: translateY(0);
+}
+
+
+.error-mensaje {
+    color: #dc3545;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 6px;
+    display: block;
+}
+
+.list-group-item {
+    transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f1f5f9;
+}
